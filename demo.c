@@ -1,9 +1,9 @@
 // Explaing Basic Structure in C
-#include <stdio.h> // Preprocessor Directive
-#include <conio.h>
-void main() // Main Function
+#include <stdio.h> // Header Libraries
+#include <conio.h> // Header Libraries
+void main()        /* Execution Begins here.
+            Void means we are not returning something. */
 {
-    printf("Hello C!!"); // Display the line on the screen
-    getch();             /* to hold the output screen for some time until the user passes a key from 
-                the keyboard to exit the console screen */
+    printf("Hello C!!"); // Pushing output to console
+    getch();             // Termination after any key is pressed
 }
