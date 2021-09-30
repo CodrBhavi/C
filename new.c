@@ -23,4 +23,5 @@ int main()
     printf("%f + %f = %lf", c, d, c + d);
     printf("\n%f - %f = %lf", c, d, c - d);
     return 0;
+    getch();
 }
